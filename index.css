@@ -656,6 +656,78 @@ footer .follow{
     font-weight: 300;
 }
 
+/* product details */
+
+#details .pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#details{
+    display: flex;
+    margin-top: 20px;
+}
+
+.pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.pro-details h4{
+    padding: 40px 0 20px 0 ;
+}
+
+.pro-details h6{
+    font-size: 26px;
+}
+
+.pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.pro-details select:focus{
+    outline: none;
+}
+
+.pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.pro-details input:focus{
+    outline: none;
+}
+
+
+.pro-details button{
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: orangered;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.pro-details span{
+    line-height: 25px;
+}
+
 
 
 
